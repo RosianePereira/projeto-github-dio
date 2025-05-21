@@ -1,57 +1,64 @@
-# Projeto GitHub
+# Projeto GitHub:  Qualidade de Software com Testes Unitários em Java
 
-## Objetivo do Projeto
-Este trabalho tem como objetivo compartilhar alguns conceitos que aprendi com o curso Quality Assurance para mulheres da DIO.
+## Objetivo 
+Este trabalho tem como objetivo compartilhar os conceitos aprendidos no curso Quality Assurance para Mulheres, da DIO, além de demonstrar a aplicação prática de testes unitários utilizando JUnit em um sistema simples que calcula o peso ideal com base no IMC.
 
-## Garantia de Qualidade (QA) e Testes de Software
-Vivemos em um mundo dependente de tecnologia, onde a qualidade de software é essencial para garantir que aplicativos e sistemas funcionem de forma eficiente. QA (Quality Assurance) envolve práticas que previnem defeitos e garantem que o software seja desenvolvido corretamente desde o início.
+## Conceitos de Garantia de Qualidade (QA) e Testes de Software
+Vivemos em um mundo altamente dependente de tecnologia, onde a qualidade de software é fundamental para garantir que aplicativos e sistemas funcionem corretamente.
+Quality Assurance (QA) envolve práticas para prevenir defeitos desde o início do desenvolvimento e garantir que os requisitos sejam atendidos de forma eficiente.
 
 ## O que é Qualidade de Software?
-A qualidade de software é definida como o grau no qual um conjunto de características satisfaz os requisitos, garantindo que o sistema seja:
-- **Funcional**: Faz o que deveria.
-- **Confiável**: Funciona de forma consistente.
-- **Eficiente**: Rápido e sem falhas.
-- **Intuitivo**: Fácil de usar.
+A qualidade de software é o grau em que um sistema satisfaz os requisitos estabelecidos. Um software de qualidade é:
+- Funcional: Faz o que deveria fazer.
+- Confiável: Funciona de forma estável.
+- Eficiente: Opera de maneira rápida e sem falhas.
+- Intuitivo: Fácil de usar pelo usuário final.
 
-## O Papel do QA (Quality Assurance)
-QA é um conjunto de práticas para garantir que o software seja desenvolvido de maneira correta, prevenindo defeitos e atendendo aos requisitos desde o início.
+## Níveis e Tipos de Testes
+Durante o desenvolvimento, os testes ajudam a verificar se o sistema atende aos requisitos:
 
-## Como Avaliar a Qualidade de Software?
+### Tipos:
+- Testes Funcionais
+- Testes de Performance
 
-## A qualidade é medida por critérios como:
-- **Funcionalidade**: O sistema realiza as funções corretamente?
-- **Confiabilidade**: O sistema é estável?
-- **Desempenho**: O sistema lida bem com carga pesada?
-- **Usabilidade**: O sistema é fácil de usar?
+### Níveis:
+- Testes Unitários: 
+- Testes de Integração
+- Testes de Sistema
+- Testes de Aceitação
 
-## A Importância dos Testes
+## Importância dos Testes Unitários
+O teste unitário garante que cada unidade do código funcione corretamente de forma isolada. Ele é uma das primeiras etapas nos testes automatizados, permitindo detectar falhas rapidamente e facilitar a manutenção do sistema.
 
-### Testes garantem que os requisitos sejam atendidos e ajudam a identificar problemas antes de o software ser lançado. Tipos de testes incluem:
-- **Testes Funcionais**: Verificam a funcionalidade do sistema.
-- **Testes de Performance**: Avaliam o desempenho sob carga.
+ ## Projeto: Cálculo de Peso Ideal com JUnit
+Este projeto contém uma simulação de teste unitário feita com JUnit, que verifica a lógica de cálculo do IMC (Índice de Massa Corporal) e a classificação do peso:
+### Funcionalidades:
+- Entrada de peso e altura.
+- Cálculo do IMC.
+- Classificação como: abaixo do peso, peso ideal, sobrepeso, etc.
 
-## Níveis de Teste:
-- **Testes Unitários**: Verificam unidades de código isoladas.
-- **Testes de Integração**: Avaliam a interação entre componentes.
-- **Testes de Sistema**: Validam o sistema como um todo.
-- **Testes de Aceitação**: Garantem que os requisitos do cliente sejam atendidos.
 
-## Testes Manuais vs. Automatizados
-
-- **Testes Manuais**: Realizados por profissionais verificando manualmente.
-- **Testes Automatizados**: Realizados com ferramentas que repetem testes de forma automatizada.
-
-## A Importância do Teste Unitário
-O teste unitário é crucial para garantir que cada parte do código funcione corretamente e para evitar problemas no futuro.Ele deve ser o segundo passo após os testes manuais, garantindo que, após a verificação inicial da funcionalidade do sistema, as unidades de código sejam testadas de maneira isolada e detalhada. Isso assegura que cada componente individual do sistema funcione como esperado antes de seguir para testes mais complexos.
-
-## Ferramentas de Gerenciamento de Testes
-Ferramentas como **Jira** ajudam no gerenciamento de QA, permitindo criar e monitorar casos de teste, documentar bugs e acompanhar correções.
+## Tecnologias Utilizadas
+- Java
+- JUnit 5
+- IDE: IntelliJ
+  
 
 ## GitHub como Repositório
-O GitHub é uma excelente plataforma para armazenar, versionar e compartilhar projetos de software. Ele permite que desenvolvedores trabalhem em conjunto, oferecendo recursos como controle de versão, colaboração por meio de pull requests, e rastreamento de problemas. O GitHub também é uma ótima ferramenta para mostrar seu trabalho e receber contribuições de outras pessoas, mantendo o código organizado e acessível.
+O GitHub é usado aqui para versionar e compartilhar o projeto. Ele permite visibilidade ao meu aprendizado e prática com testes, além de ser uma ferramenta essencial no fluxo de trabalho de QA.
 
+  
 ### Links úteis
-[O que é QA?](https://www.softwaretestinghelp.com/what-is-qa-quality-assurance/)
-[Tipos de Testes de Software](https://www.guru99.com/types-of-software-testing.html)
-[Testes Unitários: O que são?](https://www.atlassian.com/continuous-delivery/unit-testing)
-[Testes de Software: Manual vs. Automatizado](https://www.softwaretestinghelp.com/manual-vs-automation-testing/)
+- [O que é QA?](https://www.dio.me/articles/entenda-o-que-e-quality-assurance-qa)
+- [Tipos de Testes de Software](https://www.dio.me/articles/entenda-os-tipos-de-testes-de-software)
+- [JUnit: Testes Unitários em Java](https://junit.org/)
+- [GitHub e Versionamento de Código](https://docs.github.com/pt)
+
+
+## Contribuição
+
+Este projeto foi desenvolvido como uma atividade acadêmica.  
+Caso queira contribuir com sugestões, comentários ou correções, sinta-se à vontade para abrir uma [issue](https://github.com/RosianePereira/projeto-github-dio/issues) ou enviar um [pull request](https://github.com/RosianePereira/projeto-github-dio/pulls).
+
+Se você gostou do projeto, não esqueça de deixar uma [⭐ estrela](https://github.com/RosianePereira/projeto-github-dio)!
+
